@@ -18,7 +18,7 @@ const CourseIncludes = [
   
   {
     icon: MdOutlineOndemandVideo,
-    txt: "12 Hours Course"
+    txt: "5 Weeks Course"
   },
   {
     icon: FaLaptopCode,
@@ -35,7 +35,11 @@ const CourseIncludes = [
   { 
     icon: GrCertificate,
     txt: "Certificate of Completeion"
-  }
+  },
+  {
+    icon: FaLaptopCode,
+    txt: "Free domain & Hosting"
+  },
 
 ]
 
@@ -65,11 +69,15 @@ const CourseDetail = () => {
              </li>
              <li>
               <TiTick className='list-icon' />
-              <span>You will learn HTML5 & CSS3 from scratch, & build a full working website.</span>
+              <span>You will learn HTML5 , CSS3 & BOOTSTRAP from scratch, & build a full working website.</span>
              </li>  
              <li>
               <TiTick className='list-icon' />
               <span>You will learn Complete JavaScript + ECMA Script 6 (ES6) from scratch.</span>
+             </li>
+             <li>
+              <TiTick className='list-icon' />
+              <span>You will learn basics of Git & Github  from scratch.</span>
              </li>
             </div>
            
