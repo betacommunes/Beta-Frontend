@@ -1,0 +1,218 @@
+.contactus{
+    height: 60vh;
+    width: 80vw;
+    margin-top: 10rem;
+    margin-left: 7.5rem;
+    box-shadow: 0px 0px 10px 5px rgba(187, 185, 185, 0.5);
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.namem{  
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.phone-ww{
+    height: 4.5rem;
+    width: 28rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+    background: var(--purple-color);
+    cursor: pointer;
+    gap: 1rem;
+
+
+}
+
+.phone-ww a>img{
+    margin-left: 1rem;
+    margin-top: -2rem;
+    height:2.5rem;
+    width: 2.5rem;
+    
+}
+.phone-ww a{
+    text-decoration: none;
+}
+
+.phone-ww a> span{
+    color: black;
+    margin-left: 2rem;  
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.phone-ww:hover{
+    background: var(--purple-color);
+  
+}
+
+/* right side */
+
+.rightside{
+    margin-top: 8.5rem;
+    margin-left: 4rem;
+    
+}
+
+.inputs{
+    height: 3rem;
+    width: 24rem;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+    outline: none;
+    border: none;
+    border: 1px solid  rgb(227, 227, 227);
+    font-size: 1.5rem;
+
+   
+    
+
+}
+input::placeholder{
+   font-size: 1.3rem;
+   padding: 1.3rem;
+   
+}
+
+.inputs-company{
+    height: 3rem;
+    width: 24rem;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+    outline: none;
+    border: none;
+    border: 1px solid  rgb(227, 227, 227);
+    font-size: 1.5rem;  
+    margin-top: 1rem;
+}
+
+textarea{
+    margin-top: 1rem;
+    outline: none;
+    width: 24rem;
+    background: rgb(240, 240, 240);
+    border: 1px solid  rgb(227, 227, 227);
+    font-size: 1.3rem;
+}
+
+.submit{
+    height: 3rem;
+    width: 24rem;
+   margin-top: 1rem;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+   background: var(--purple-color) ;
+   font-size: 1.5rem;
+}
+.submit:hover{
+    background: var(--purple-color);
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .contactus{
+        
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        gap: 1rem;
+    }
+    .namem{
+        margin-left: 3rem;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    .phone-ww{
+        height: 3rem;
+    width: 22rem;
+    
+    }
+    .phone-ww a>img{
+        margin-left: .5rem;
+        margin-top: -.5rem;
+        height:2rem;
+        width: 2rem;
+        
+    }
+
+    .phone-ww a> span{
+        color: black;
+        margin-left: 2rem;  
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* right */
+    .rightside{
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+        
+    }
+
+    .inputs{
+        height: 1.5rem;
+        width: 22rem;
+        border-radius: 5px;
+        background: rgb(240, 240, 240);
+        outline: none;
+        border: none;
+        border: 1px solid  rgb(227, 227, 227);
+        font-size: 1rem;
+
+    }
+
+    input::placeholder{
+        font-size: 1rem;
+        padding: 1rem;
+        
+    }
+    .inputs-company{
+        height: 1.5rem;
+        width: 22rem;
+        border-radius: 5px;
+        background: rgb(240, 240, 240);
+        outline: none;
+        border: none;
+        border: 1px solid  rgb(227, 227, 227);
+        font-size: 1rem;  
+        margin-top: 1rem;
+    }
+    textarea{
+        margin-top: 1rem;
+        outline: none;
+        width: 22rem;
+        background: rgb(240, 240, 240);
+        border: 1px solid  rgb(227, 227, 227);
+        font-size: 1.3rem;
+    }
+    .submit{
+        height: 2rem;
+        width: 22rem;
+       margin-top: .5rem;
+       border-radius: 10px;
+       outline: none;
+       border: none;
+       background: var(--purple-color) ;
+       font-size: 1rem;
+    }
+     
+}
+ 

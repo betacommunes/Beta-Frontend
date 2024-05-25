@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.main-form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--lightBlue);
+    position: relative; /* Ensure the form container establishes a stacking context */
+    z-index: 1; /* Set a lower z-index for the form to ensure it's behind the notification */
+
+}
+.container-enroll{
+    position: relative;
+    width: 256px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-enroll span {
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 6px;
+    background:var(--lightBlue);
+    border-radius: 8px;
+    transform-origin: 128px;
+    transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
+    animation: animateBlink 3s linear infinite;
+    animation-delay: calc(var(--i) * (3s / 50));
+}
+@keyframes animateBlink {
+    0% {
+        background: #0ef;
+    }
+    25% {
+        background: var(--lightBlue);
+    }
+}
+
+.enroll-box {
+    position: absolute;
+    width: 370px;
+}
+.enroll-box form {
+    width: 100%;
+    padding: 0 50px;
+}
+h2 {
+    font-size: 2em;
+    color: #0ef;
+    ;
+    text-align: center;
+}
+.input-box {
+    position: relative;
+    margin: 20px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 20px;
+    transition: .5s ease;
+}
+.input-box input:focus,
+.input-box input:valid {
+    border-color:  white;
+}
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s ease;
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: 1px;
+    font-size: .8em;
+    background: var(--lightBlue);
+    padding: 0 6px;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background:  #0ef;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+    /* .enroll-box {
+        position: absolute;
+        width: 260px;
+        
+    } */
+    .container-enroll span {
+      
+        width: 32px;
+        height: 6px;
+        transform-origin: 128px;
+        transform: scale(1.6) rotate(calc(var(--i) * (360deg / 50)));
+        display: none;
+    
+    }
+/* 
+    .input-box {
+        position: relative;
+        margin: 10px 0;
+    } */
+   
+
+ 
+
+
+
+}

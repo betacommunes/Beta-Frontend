@@ -1,0 +1,12 @@
+.i-notification{
+    font-size: small;
+}
+.i-notification>span{
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.i-notification>span:hover{
+    color: rgb(32, 149, 195);
+}

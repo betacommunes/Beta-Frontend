@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Open+Sans:wght@400;500;600&family=Permanent+Marker&family=Poppins:wght@500;600;700;800&family=Rubik+Bubbles&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Lilita+One&family=Open+Sans:wght@400;500;600&family=Permanent+Marker&family=Poppins:wght@500;600;700;800&family=Rubik+Bubbles&family=Rubik+Lines&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Lilita+One&family=Lobster&family=Open+Sans:wght@400;500;600&family=Permanent+Marker&family=Poppins:wght@500;600;700;800&family=Rubik+Bubbles&family=Rubik+Lines&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+:root {
+    /*  colors */
+      --purple-color:#663399;
+      --blue-color:#082777;
+      --lightBlue:#04355C;
+    --first-color: hsl(271, 76%, 53%);
+    --title-color: hsl(0, 0%, 40%);
+    --text-color: hsl(0, 0%, 50%);
+    --body-color: hsl(0, 0%, 100%);
+    --container-color: hsl(0, 0%, 93%);
+    --border-color: hsl(0, 0%, 87%);
+    --text-white: #fff;
+      
+    /*  fonts */
+    --body-font: 'Open Sans', sans-serif;
+    --second-font: 'Poppins', sans-serif;
+
+    --big-font-size: 56px;
+    --h1-font-size: 50px;
+    --h2-font-size: 32px;
+    --h3-font-size: 24px;
+    --large-font-size: 18px;
+    --normal-font-size: 16px;
+    --small-font-size: 15px;
+    --smaller-font-size: 14px;
+    --tiny-font-size: 12px;
+
+    /*  fonts  Weight*/
+
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+    --weight-800: 800;
+
+
+
+}
+
+.container{
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 135px;
+  }
+  .grid{
+    display: grid;
+    gap: 30px;
+  }
+  .section{
+    padding-block: 10px;
+  }
+  .section--title span{
+    color: rgb(232, 108, 55);;
+  }
+ 
+  .section--title{
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+ 
+
+  

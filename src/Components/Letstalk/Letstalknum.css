@@ -1,0 +1,66 @@
+.experience {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.exper-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.exper-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.exper-year {
+    font-size: 5rem;
+    color: var(--blue-color);
+}
+
+.exper-title {
+    font-weight: 400;
+    font-family: "Lilita One", sans-serif;
+
+}
+
+.exper-des {
+    color: rgb(134, 130, 130);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .exper-content {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}

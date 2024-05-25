@@ -1,0 +1,78 @@
+.testimonial{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.xard{
+    height: 12rem;
+    margin: 0px 10px;
+    background: rgb(232, 108, 55);
+    border-radius: 10px;
+    gap: 2rem !important;
+    
+}
+  
+.imaga1{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+
+     height: 3.5rem;
+     width: 3.5rem;
+}
+.xard>h3{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 8rem;
+    margin-top: -3rem;
+}
+.xard>p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    color: aliceblue;
+}
+
+#card2{
+    background: black !important;
+}
+
+#card4{
+    background: black !important;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .testimonial {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    .xard {
+      height: 18rem;
+    }
+  
+    .imaga1 {
+        margin-top: 3rem;
+      height: 4rem;
+      width: 4rem;
+    }
+  
+    .xard > h3 {
+      font-size: 1.5rem;
+      margin-left: 7rem;
+    }
+  
+    .xard > p {
+        margin-top: 2rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  
+  
